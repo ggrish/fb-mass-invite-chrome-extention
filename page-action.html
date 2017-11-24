@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+<style type="text/css">
+	#mainPopup {
+		padding: 10px;
+		height: 400px;
+		width: 350px;
+		font-family: 'Cabin Condensed', sans-serif;
+		background:#1A4969;
+		color: #FFF;
+
+		background-image: url(bg.png);
+  		background-repeat: repeat;
+
+	}
+	h1 {
+		font-size: 2em;
+	}
+	.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+/* Button 1 */
+.btn-1 {
+	border: 3px solid #FFF;
+	color: #FFF;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+	color: #1A4969;
+	background: #FFF;
+}
+
+.tfield {
+  height: 40px;
+  width: 200px;
+  padding: 0px 20px;
+  font-size: 18px;
+  vertical-align: top;
+  border: 0;
+  background-color: #FFF;
+  box-shadow: inset 1px 1px 2px 1px #ccc;
+  text-align: center;
+}
+
+
+#counter {
+	font-family: 'Cabin Condensed', sans-serif;
+	size: 20px;
+}
+a {
+	color: white;
+}
+
+</style>
+<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+  <div id="mainPopup">
+<center>
+<h1>Facebook Post Likers Invitinator</h1>
+      <p><input type="hidden" class="tfield" id="text" value="25"></p>
+      <p><input type="hidden" class="tfield" id="tdelay" value="0.5"></p>
+
+<p>
+<input type="button" class="btn btn-1 btn-1a" id="link" value="Invite All">
+</p>
+<p>
+</p><h1><div id="counter"></div></h1>
+<p></p>
+<p>Release 23.11.2017</p>
+<p> Invite 2500 people in one try. :)</p>
+<p>Developed by <a href="https://github.com/ggrish" target="_blank">ggubarev</a></p>
+</center>
+</div>
+</body>
+</html>
